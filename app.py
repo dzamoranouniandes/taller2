@@ -19,7 +19,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 
-# Load data from csv
+# Load data from csv datos_energia.csv
 def load_data():
     raw_data_df =  pd.read_csv('datos_energia.csv', sep=',', encoding='utf-8')
     
