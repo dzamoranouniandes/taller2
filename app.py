@@ -29,7 +29,7 @@ def load_data():
     return raw_data_df
     
 
-# Cargar datos
+# Cargar datos desde archivo CSV.
 data = load_data()
 
 # Graficar serie
